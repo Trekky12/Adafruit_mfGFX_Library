@@ -85,6 +85,31 @@ void Adafruit_GFX::setFont(uint8_t f) {
 	  fontDesc = testDescriptors;
       fontKern = 1;
       break;
+    case ARIAL_6:
+        fontData = arial_6ptBitmaps;
+  	    fontDesc = arial_6ptDescriptors;
+        fontKern = 1;
+        break;
+    case TIMESNR_6:
+        fontData = timesNewRoman_6ptBitmaps;
+  	    fontDesc = timesNewRoman_6ptDescriptors;
+        fontKern = 1;
+        break;
+    case SIXPX_6:
+        fontData = sixpx_6ptBitmaps;
+  	    fontDesc = sixpx_6ptDescriptors;
+        fontKern = 1;
+        break;
+    case VICTOR_6:
+        fontData = victorsPixelFont_6ptBitmaps;
+        fontDesc = victorsPixelFont_6ptDescriptors;
+        fontKern = 1;
+        break;
+    case ARIALNEW_6:
+        fontData = arialnew_6ptBitmaps;
+        fontDesc = arialnew_6ptDescriptors;
+        fontKern = 1;
+        break;      
 	default:
       font = ARIAL_8;
       fontData = arial_8ptBitmaps;

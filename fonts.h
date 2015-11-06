@@ -14,6 +14,11 @@
 #define COMICS_8	3
 #define GLCDFONT	4
 #define TEST		5
+#define ARIAL_6		6
+#define TIMESNR_6		7
+#define SIXPX_6		8
+#define VICTOR_6		9
+#define ARIALNEW_6		10
 
 #define FONT_START 0
 #define FONT_END 1
@@ -43,6 +48,22 @@ extern const FontDescriptor glcdfontDescriptors[];
 
 extern const uint8_t testBitmaps[];
 extern const FontDescriptor testDescriptors[];
+extern const FontDescriptor testDescriptors[];   
+
+extern const uint8_t arial_6ptBitmaps[];
+extern const FontDescriptor arial_6ptDescriptors[];
+
+extern const uint8_t timesNewRoman_6ptBitmaps[];
+extern const FontDescriptor timesNewRoman_6ptDescriptors[];
+
+extern const uint8_t sixpx_6ptBitmaps[];
+extern const FontDescriptor sixpx_6ptDescriptors[];
+
+extern const uint8_t victorsPixelFont_6ptBitmaps[];
+extern const FontDescriptor victorsPixelFont_6ptDescriptors[];
+
+extern const uint8_t arialnew_6ptBitmaps[];
+extern const FontDescriptor arialnew_6ptDescriptors[];
 
 
 #endif
