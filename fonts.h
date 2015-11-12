@@ -47,7 +47,6 @@ extern const uint8_t glcdfontBitmaps[];
 extern const FontDescriptor glcdfontDescriptors[];
 
 extern const uint8_t testBitmaps[];
-extern const FontDescriptor testDescriptors[];
 extern const FontDescriptor testDescriptors[];   
 
 extern const uint8_t arial_6ptBitmaps[];
